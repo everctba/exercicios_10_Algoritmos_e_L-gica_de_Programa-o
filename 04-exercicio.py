@@ -15,4 +15,5 @@ while flag:
 for i in numeros_lista:
    soma=soma+int(i) 
 
-print("sua soma total é: ", soma)  
+print("sua soma total é: ", soma) 
+#exercicio 4 
