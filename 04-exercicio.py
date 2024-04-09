@@ -2,7 +2,7 @@ soma = 0
 numeros_lista = []
 flag = True
 ultimo_numero_digitado = "Digite o Valor: "
-print("Escreva seus numeros para fazer a, para finalizar basta digitar 0: ") 
+print("Escreva seus numeros para fazer a SOMA, para finalizar basta digitar 0: ") 
 print("----------------------------") 
 ultimo_numero_digitado = input(ultimo_numero_digitado)
 while flag:
