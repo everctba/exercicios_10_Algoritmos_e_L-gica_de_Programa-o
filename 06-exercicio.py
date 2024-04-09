@@ -1,11 +1,17 @@
 soma = 0
 numeros_lista = []
-ultimo_numero_digitado = "-1" 
-print("Escreva seus numero em sequência, para finalizar basta digitar 0: ", ultimo_numero_digitado) 
+flag = True
+ultimo_numero_digitado = "Digite o Valor: "
+print("Escreva seus numeros para fazer a, para finalizar basta digitar 0: ") 
 print("----------------------------") 
-while ultimo_numero_digitado != "0" : #or <0
-   ultimo_numero_digitado = input(ultimo_numero_digitado)
-   numeros_lista.append(ultimo_numero_digitado)
+ultimo_numero_digitado = input(ultimo_numero_digitado)
+while flag:
+   ultimo_numero_digitado = input("próximo valor: \n")
+   
+   if int(ultimo_numero_digitado) >= 1: #or <0
+      numeros_lista.append(int(ultimo_numero_digitado))
+   else:
+      flag = False
 for i in numeros_lista:
    soma=soma+int(i) 
 
